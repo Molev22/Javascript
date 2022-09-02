@@ -1,0 +1,6 @@
+function printMyName (){
+    console.log(`Maksyme`)
+}
+console.log(`Start`)
+
+setTimeout(printMyName, 2000)
