@@ -17,6 +17,8 @@ function checkTest() {
     let a3 = document.getElementById("q3").value;
     if (a3 === "0,5") {
         result++;
+    } if (a3 === "0.5") {
+        result++;
     }
     let a4 = document.getElementById("q4").value;
     if (a4 === "-2") {

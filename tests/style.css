@@ -1,0 +1,44 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(69, 69, 73);
+    background-color: gray;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.qs {
+    border: 0.5px;
+    border-color: rgb(173, 143, 201);
+    border-radius: 15px;
+    box-shadow: 2em grey;
+    background-color: lightgray;
+    background-size: auto;
+    padding: 10px 15px;
+    margin: 10px 10px;
+
+}
+
+p {
+font-size: large;
+font-style: italic;
+}
+
+button, input {
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color:blue;
+}
+
+button {
+    padding: 10px 150px;
+}
+
+.finish{
+    color:azure;
+}
+.finish:hover {
+ color:blanchedalmond;
+}
