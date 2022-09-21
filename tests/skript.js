@@ -29,6 +29,5 @@ function checkTest() {
         result++;
     }
 
- alert ("Количество правельних ответов: " + result);
-
+ alert ("Кількість правельних відповідей: " + result);
 }

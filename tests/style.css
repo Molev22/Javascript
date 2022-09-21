@@ -1,26 +1,37 @@
-div {
+body {
     text-align: center;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(69, 69, 73);
-    background-color: gray;
+    color: rgb(219, 219, 109);
+    background-color: rgb(75, 75, 207);
+    box-shadow: 2px 2px rgb(81, 82, 77);
     border-radius: 15px;
-    padding: 10px 10px;
+    text-align: auto;
+    max-width: 500px;
+    margin: 10px auto;
 }
 .qs {
     border: 0.5px;
-    border-color: rgb(173, 143, 201);
+    border-color: rgb(225, 223, 109);
     border-radius: 15px;
-    box-shadow: 2em grey;
-    background-color: lightgray;
+    box-shadow: 2px 2px rgb(81, 82, 77);
+    background-color: rgb(186, 185, 185);
     background-size: auto;
-    padding: 10px 15px;
-    margin: 10px 10px;
-
+    padding-left: auto;
+    text-align: auto;
+    margin:  10px auto;
+    max-width: 400px;
 }
 
+
+#yellow {
+    color:yellow;
+}
+#blue {
+    color: blue;
+}
 p {
 font-size: large;
 font-style: italic;
@@ -29,16 +40,18 @@ font-style: italic;
 button, input {
     margin-top: 10px;
     border-radius: 5px;
-    border-color:blue;
+    border-color:rgb(158, 158, 158);
+    text-align: auto;
 }
 
 button {
+    cursor: pointer;
     padding: 10px 150px;
+    background-color: rgb(162, 159, 159);
+
 }
 
-.finish{
-    color:azure;
-}
-.finish:hover {
- color:blanchedalmond;
+button:hover {
+ background-color: rgb(148, 117, 55);
+ 
 }
